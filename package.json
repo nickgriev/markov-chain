@@ -1,0 +1,14 @@
+{
+  "name": "markov-chain",
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "dev": "bun --watch index.ts"
+  },
+  "type": "module"
+}
